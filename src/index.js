@@ -11,7 +11,7 @@ const ship = (length,[...pos]) => {
         if(isVertical===true){
             let coord = []
 
-            for(let i = 0; i === shipLength; i++){
+            for(let i = 0; i < shipLength; i++){
                 console.log('loop running');
                 let e = [];
                 e[0]= pos[0];
